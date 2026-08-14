@@ -36,7 +36,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Build APK
-        working-directory: project
+        working-directory: project/NEET_Quest_Android_Project
         run: gradle assembleDebug
 
       - name: Upload APK
