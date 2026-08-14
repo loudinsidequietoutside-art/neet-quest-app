@@ -15,7 +15,7 @@ jobs:
       - name: Extract NEET Quest Android project
         run: |
           mkdir project
-          unzip -q NEET_Quest_Android_Project-1.zip-d projec
+          unzip NEET_Quest_Android_Project-1.zip -d project
 
       - name: Set up Java
         uses: actions/setup-java@v4
